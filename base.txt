@@ -1,0 +1,14 @@
+var
+ m, a, IMC: Real
+inicio
+
+Escreva("Massa(KG): ")
+leia(m)
+escreva("Altura(M): ")
+leia(a)
+IMC <- M / (A ^ 2)
+escreval("IMC: ", IMC:5:2)
+Se (IMC >= 18.5) e (IMC < 25) entao
+   Ecreva("Vc está no peso normal")
+senao
+   Escreva("Vc n está com seu peso normal")
